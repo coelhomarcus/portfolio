@@ -13,8 +13,6 @@ const Sidebar = () => {
             <NavLink to="/" end>Home</NavLink>
             <NavLink to="contact">Contact</NavLink>
             <NavLink to="stack">Stack</NavLink>
-            {/* <NavLink to="links">Links</NavLink> */}
-            {/* <NavLink to="jobs">Jobs</NavLink> */}
          </div>
       </div>
    )

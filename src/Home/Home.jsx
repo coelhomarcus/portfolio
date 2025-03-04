@@ -1,22 +1,20 @@
 import React from 'react'
 import Head from '../Head/Head'
+import { NavLink } from 'react-router'
 
 const Home = () => {
    return (
       <div className="home">
          <Head title="Home" />
-         <div className="textbox">
-            <h1>About</h1>
-            <p> I'm Marcus Coelho</p>
-            <p>Information Systems student at UNIFESSPA, currently in my 5th period.</p>
-            <p>Focused on Web Development for now.</p>
+         <div className='titlebox'>
+            <h1>Home</h1>
          </div>
          <div className="textbox">
-            <h1>Skills</h1>
-            <p>Natural Language: Portuguese (Native); English (Ongoing);</p>
-            <p>Programming Language: Python; C#; Java; Swift; JavaScript;</p>
-            <p>Typesetting Language: HTML; CSS;</p>
-            <p>Frameworks & Libraries: React (Ongoing);</p>
+            <h1>About</h1>
+            <p>I’m Marcus Coelho, a 20-year-old Fullstack Developer currently pursuing a Bachelor's degree in Information Systems at UNIFESSPA. As a Junior Developer, I’m always looking for new challenges to improve my skills and expand my knowledge. Passionate about technology and continuous learning, I strive to deliver high-quality solutions in every project I work on.</p>
+         </div>
+         <div style={{ width: "200px" }} >
+            <NavLink className="button" to="stack/dev-stack">Check out my skills</NavLink>
          </div>
          <div className="textbox">
             <h1>Professional Experience</h1>

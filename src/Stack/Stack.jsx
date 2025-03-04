@@ -7,7 +7,7 @@ const Stack = () => {
    return (
       <div className='stack'>
          <Head title="Stack" />
-         <div className='textbox'>
+         <div className='titlebox'>
             <h1>Stack</h1>
             <p>Tools & products I use daily.</p>
          </div>
