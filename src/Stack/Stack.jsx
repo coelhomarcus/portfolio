@@ -1,35 +1,18 @@
 import React from 'react'
-import { NavLink } from 'react-router';
 import Head from '../Head/Head'
+import NavButton from '../Components/NavButton/NavButton'
+import Text from '../Components/Text/Text'
 
 
 const Stack = () => {
    return (
-      <div className='stack'>
+      <div className='main'>
          <Head title="Stack" />
-         <div className='titlebox'>
-            <h1>Stack</h1>
-            <p>Tools & products I use daily.</p>
-         </div>
+         <Text h1="Stack" p="Tools & products I use daily." />
          <div className="options">
-            <NavLink to="dev-stack" className='textbox'>
-               <span>
-                  <h1>Development Stack</h1>
-                  <p>All of the apps, tools, and services I use to build my projects.</p>
-               </span>
-            </NavLink>
-            <NavLink to="desk-setup" className='textbox'>
-               <span>
-                  <h1>Desk Setup</h1>
-                  <p>My main workspace.</p>
-               </span>
-            </NavLink>
-            <NavLink to="vs-setup" className='textbox'>
-               <span>
-                  <h1>VSCode Setup</h1>
-                  <p>The extensions, theme, and settings I use.</p>
-               </span>
-            </NavLink>
+            <NavButton to="dev-stack" h1="Development Stack" p="All of the apps, tools, and services I use to build my projects." />
+            <NavButton to="desk-setup" h1="Desk Setup" p="My main workspace." />
+            <NavButton to="vs-setup" h1="VSCode Setup" p="The extensions, theme, and settings I use." />
          </div>
       </div>
    )

@@ -1,5 +1,10 @@
 import React from 'react'
+
+// My Components
 import Head from '../../Head/Head'
+import Button from '../../Components/Button/Button';
+import Text from '../../Components/Text/Text';
+
 import { IoLogoJavascript, IoLogoHtml5, IoLogoCss3, IoLogoPython, IoLogoReact, IoLogoNodejs } from "react-icons/io5";
 import { FaJava, FaSwift, FaFigma, FaBrave, FaGithub, FaUnity } from "react-icons/fa6";
 import { VscVscode } from "react-icons/vsc";
@@ -10,58 +15,53 @@ const DevStack = () => {
       <div className='stackItems'>
          <Head title="Dev Stack" />
          <div className="button"><button onClick={() => window.history.back()}>↫ Back</button></div>
-         <div className='stackInfo'>
-            <div className='titlebox'>
-               <h1>Development Stack</h1>
-            </div>
-            <p>All of the apps, tools, languages and services I use to build my projects.</p>
-         </div>
-         <div className='languages'>
-            <div className='titlebox'>
-               <h2>Programming & Typesetting Languages</h2>
-            </div>
+
+         <Text h1="Development Stack" p="All of the apps, tools, languages and services I use to build my projects." />
+
+         <div className='flexColumn'>
+            <Text h2="Programming & Typesetting Languages" />
+
             <div style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}>
-               <div className="button" title="JavaScript"><IoLogoJavascript className='customIcon' /></div>
-               <div className="button" title="HTML"> <IoLogoHtml5 className='customIcon' /></div>
-               <div className="button" title="CSS"><IoLogoCss3 className='customIcon' /></div>
-               <div className="button" title="Python"><IoLogoPython className='customIcon' /></div>
-               <div className="button" title="Java"><FaJava className='customIcon' /></div>
-               <div className="button" title="Swift"><FaSwift className='customIcon' /></div>
+               <Button onlyIcon title="JavaScript"><IoLogoJavascript /></Button>
+               <Button onlyIcon title="HTML"><IoLogoHtml5 /></Button>
+               <Button onlyIcon title="CSS"><IoLogoCss3 /></Button>
+               <Button onlyIcon title="Python"><IoLogoPython /></Button>
+               <Button onlyIcon title="Java"><FaJava /></Button>
+               <Button onlyIcon title="Swift"><FaSwift /></Button>
             </div>
          </div>
-         <div className='languages'>
-            <div className='titlebox'>
-               <h2>Frameworks, Libraries & More</h2>
-            </div>
+
+         <div className='flexColumn'>
+            <Text h2="Frameworks, Libraries & More" />
+
             <div style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}>
-               <div className="button" title="React"><IoLogoReact className='customIcon' /></div>
-               <div className="button" title="NodeJs"><IoLogoNodejs className='customIcon' /></div>
+               <Button onlyIcon title="React"><IoLogoReact /></Button>
+               <Button onlyIcon title="NodeJs"><IoLogoNodejs /></Button>
             </div>
          </div>
-         <div className='languages'>
-            <div className='titlebox'>
-               <h2>Database</h2>
-            </div>
+
+         <div className='flexColumn'>
+            <Text h2="Database" />
             <div style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}>
-               <div className="button" title="MySQL"><SiMysql className='customIcon' /></div>
-               <div className="button" title="MongoDB"><SiMongodb className='customIcon' /></div>
+               <Button onlyIcon title="MySQL"><SiMysql /></Button>
+               <Button onlyIcon title="MongoDB"><SiMongodb /></Button>
             </div>
          </div>
-         <div className='languages'>
-            <div className='titlebox'>
-               <h2>Apps</h2>
-            </div>
+
+         <div className='flexColumn'>
+            <Text h2="Apps" />
             <div style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}>
-               <div className="button" title="VSCode"><VscVscode className='customIcon' /></div>
-               <div className="button" title="Figma"><FaFigma className='customIcon' /></div>
-               <div className="button" title="Insomnia"><SiInsomnia className='customIcon' /></div>
-               <div className="button" title="Unity"><FaUnity className='customIcon' /></div>
-               <div className="button" title="Brave"><FaBrave className='customIcon' /></div>
-               <div className="button" title="GitHub"><FaGithub className='customIcon' /></div>
-               <div className="button" title="Todoist"><SiTodoist className='customIcon' /></div>
-               <div className="button" title="XCode"><SiXcode className='customIcon' /></div>
+               <Button onlyIcon title="VSCode"><VscVscode /></Button>
+               <Button onlyIcon title="Figma"><FaFigma /></Button>
+               <Button onlyIcon title="Insomnia"><SiInsomnia /></Button>
+               <Button onlyIcon title="Unity"><FaUnity /></Button>
+               <Button onlyIcon title="Brave"><FaBrave /></Button>
+               <Button onlyIcon title="GitHub"><FaGithub /></Button>
+               <Button onlyIcon title="Todoist"><SiTodoist /></Button>
+               <Button onlyIcon title="XCode"><SiXcode /></Button>
             </div>
          </div>
+
       </div>
    )
 }

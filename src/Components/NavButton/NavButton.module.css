@@ -1,0 +1,30 @@
+.navlink {
+   padding-block: 25px;
+   text-decoration: none;
+   border-radius: 6px;
+   transition: all .3s ease;
+
+   span {
+      transition: all .4s ease;
+   }
+
+   h1 {
+      color: var(--textWhite);
+      font-size: 1rem;
+      font-weight: 400;
+   }
+
+   p {
+      color: var(--textGrey);
+      font-size: 1rem;
+      font-weight: 400;
+   }
+}
+
+.navlink:hover {
+   background: #191919;
+
+   span {
+      margin-left: 20px;
+   }
+}
