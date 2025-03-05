@@ -1,5 +1,7 @@
 import React from 'react'
-import { FaLinkedin, FaGithub } from "react-icons/fa6";
+import { FaLinkedin, FaGithub, FaCat } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
+
 
 import Head from '../Head/Head'
 import Button from '../Components/Button/Button';
@@ -12,13 +14,14 @@ const Contact = () => {
       <div className='main'>
          <Head title="Contact" />
          <Text h1="Contact" />
-         <Text h2="👋 Hello!" />
-         <Text p="Reach me at marcusrangelcoelho@gmail.com or connect on social media below." />
+         <Text h2="Hi there!" />
+         <Text p="Talk to me on one of these platforms, just click:" />
          <div className='flexRow'>
             <Button href="https://www.linkedin.com/in/coelhomarcus" title="LinkedIn"><FaLinkedin /></Button>
+            <Button href="mailto:marcusrangelcoelho@gmail.com?subject=Assunto&body=Olá!" title="Email"><MdEmail /></Button>
             <Button href="https://github.com/coelhomarcus" title="GitHub"><FaGithub /></Button>
          </div>
-         <Text p="I enjoy meeting fellow developers and creators, so feel free to schedule a quick call!" />
+         <Text p="I enjoy meeting new people, so feel free to send me a message!" />
       </div>
    )
 }
