@@ -11,8 +11,8 @@ const Contact = () => {
             <h1>Contact</h1>
          </div>
          <div className="textbox">
-            <h1>Reach me!</h1>
-            <p>Reach me at <a href="mailto:marcusrangelcoelho@gmail.com">marcusrangelcoelho@gmail.com</a> or connect on social media below.</p>
+            <p>Reach me at <a href="mailto:marcusrangelcoelho@gmail.com">marcusrangelcoelho@gmail.com</a></p>
+            <p>or connect on social media below.</p>
             <p>I enjoy meeting fellow developers and creators, so feel free to schedule a quick call!</p>
          </div>
          <div className='socials'>

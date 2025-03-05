@@ -14,13 +14,13 @@ const VSCode = () => {
          </div>
          <div className='titlebox'>
             <h2>Extensions</h2>
-            <p>➜ Themes: Vesper, Min Theme, Aura Theme</p>
-            <p>➜ Icon Theme: Symbols</p>
-            <p>➜ ESLint</p>
-            <p>➜ GitLens</p>
-            <p>➜ Live Server</p>
-            <p>➜ Color Highlight</p>
-            <p>➜ ES7+ React/Redux/React-Native snippets</p>
+            <p>• Themes: Vesper, Min Theme, Aura Theme</p>
+            <p>• Icon Theme: Symbols</p>
+            <p>• ESLint</p>
+            <p>• GitLens</p>
+            <p>• Live Server</p>
+            <p>• Color Highlight</p>
+            <p>• ES7+ React/Redux/React-Native snippets</p>
          </div>
       </div>
    )

@@ -28,7 +28,7 @@ body {
 .profile {
    display: flex;
    flex-direction: column;
-   gap: 10px;
+   gap: 15px;
 
    h1 {
       color: var(--textWhite);
@@ -58,8 +58,8 @@ body {
    .options {
       display: flex;
       flex-direction: column;
-      margin-top: 60px;
-      gap: 30px;
+      margin-top: 30px;
+      gap: 15px;
 
       a {
          width: 80px;
@@ -125,6 +125,12 @@ body {
       color: var(--textWhite);
       font-size: 1.2rem;
       font-weight: 500;
+   }
+
+   h3 {
+      color: var(--textWhite);
+      font-size: 1rem;
+      font-weight: 400;
    }
 
    p {
@@ -377,8 +383,8 @@ body {
       align-items: center;
 
       .options {
-         display: flex;
-         flex-direction: row;
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr;
          margin-top: 60px;
          gap: 30px;
 
@@ -407,15 +413,14 @@ body {
 
    }
 
-
    .home {
       grid-column: 2;
    }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 670px) {
    .content {
-      margin-top: 40px;
+      margin-top: 20px;
       display: flex;
       flex-direction: column;
    }
@@ -425,7 +430,7 @@ body {
    }
 
    .sidebar {
-      margin: 0 0 100px 0;
+      margin: 0 0 50px 0;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -433,9 +438,9 @@ body {
 
       .options {
          display: grid;
-         grid-template-columns: 1fr 1fr;
+         grid-template-columns: 1fr 1fr 1fr;
          margin-top: 60px;
-         gap: 30px;
+         gap: 20px;
 
          a {
             display: flex;

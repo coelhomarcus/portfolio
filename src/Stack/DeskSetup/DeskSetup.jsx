@@ -13,16 +13,20 @@ const DeskSetup = () => {
             </div>
             <p>My workspace.</p>
          </div>
-         <span className='textbox'>
-            <p>ASRock Phantom Gaming PG27FF1A</p>
-            <p>AOC 27B1HM</p>
-            <p>i5 10400f</p>
-            <p>RTX 4060</p>
-            <p>24gb RAM</p>
-            <p>SSD 500gb &  HD 1tb</p>
-            <p>Logitech g435</p>
-            <p>Ajazz AJ139 PRO</p>
-            <p>JBL Quantum Stream Studio</p>
+         <span className='titlebox'>
+            <h2>PC</h2>
+            <p>• i5 10400f</p>
+            <p>• RTX 4060</p>
+            <p>• 24gb RAM</p>
+            <p>• SSD 500gb &  HD 1tb</p>
+         </span>
+         <span className='titlebox'>
+            <h2>Peripherals</h2>
+            <p>• ASRock Phantom Gaming PG27FF1A</p>
+            <p>• AOC 27B1HM</p>
+            <p>• Logitech g435</p>
+            <p>• Ajazz AJ139 PRO</p>
+            <p>• JBL Quantum Stream Studio</p>
          </span>
       </div>
    )
