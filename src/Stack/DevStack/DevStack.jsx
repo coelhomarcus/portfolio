@@ -21,7 +21,7 @@ const DevStack = () => {
          <div className='flexColumn'>
             <Text h2="Programming & Typesetting Languages" />
 
-            <div style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}>
+            <div className='flexRow'>
                <Button onlyIcon title="JavaScript"><IoLogoJavascript /></Button>
                <Button onlyIcon title="HTML"><IoLogoHtml5 /></Button>
                <Button onlyIcon title="CSS"><IoLogoCss3 /></Button>
@@ -34,7 +34,7 @@ const DevStack = () => {
          <div className='flexColumn'>
             <Text h2="Frameworks, Libraries & More" />
 
-            <div style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}>
+            <div className='flexRow'>
                <Button onlyIcon title="React"><IoLogoReact /></Button>
                <Button onlyIcon title="NodeJs"><IoLogoNodejs /></Button>
             </div>
@@ -42,7 +42,7 @@ const DevStack = () => {
 
          <div className='flexColumn'>
             <Text h2="Database" />
-            <div style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}>
+            <div className='flexRow'>
                <Button onlyIcon title="MySQL"><SiMysql /></Button>
                <Button onlyIcon title="MongoDB"><SiMongodb /></Button>
             </div>
@@ -50,7 +50,7 @@ const DevStack = () => {
 
          <div className='flexColumn'>
             <Text h2="Apps" />
-            <div style={{ display: "flex", gap: "20px", flexWrap: "wrap" }}>
+            <div className='flexRow'>
                <Button onlyIcon title="VSCode"><VscVscode /></Button>
                <Button onlyIcon title="Figma"><FaFigma /></Button>
                <Button onlyIcon title="Insomnia"><SiInsomnia /></Button>

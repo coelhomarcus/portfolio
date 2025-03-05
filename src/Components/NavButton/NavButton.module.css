@@ -1,11 +1,13 @@
 .navlink {
    padding-block: 25px;
+   padding-inline: 5px;
    text-decoration: none;
    border-radius: 6px;
    transition: all .3s ease;
+   height: 6rem;
 
    span {
-      transition: all .4s ease;
+      transition: all .3s ease;
    }
 
    h1 {
@@ -25,6 +27,6 @@
    background: var(--bgButton);
 
    span {
-      margin-left: 20px;
+      margin-left: 5px;
    }
 }
