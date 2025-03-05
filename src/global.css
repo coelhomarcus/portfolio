@@ -4,6 +4,10 @@
    --background: #100E0E;
    --textWhite: #E9E6E6;
    --textGrey: #949494;
+   --linkHover: #e9e6e6eb;
+   --bgButton: #191919;
+   --borderButton: #3a3a3a;
+   --colorButton: #94949488;
 }
 
 * {
@@ -71,7 +75,7 @@ body {
       }
 
       a:hover {
-         color: #e9e6e6eb;
+         color: var(--linkHover);
       }
 
       .active {
@@ -159,8 +163,8 @@ body {
          button {
             padding: 10px 20px;
             width: auto;
-            background-color: #191919;
-            border: 1px solid #3a3a3a;
+            background-color: var(--bgButton);
+            border: 1px solid var(--borderButton);
             border-radius: 6px;
          }
       }
@@ -200,12 +204,12 @@ body {
             transition: all 0.4s ease;
             height: 50px;
             border-radius: 6px;
-            background-color: #191919;
-            border: 1px solid #3a3a3a;
+            background-color: var(--bgButton);
+            border: 1px solid var(--borderButton);
          }
 
          a:hover {
-            color: #e9e6e6eb;
+            color: var(--linkHover);
          }
 
          .active {
@@ -254,12 +258,12 @@ body {
             transition: all 0.4s ease;
             height: 50px;
             border-radius: 6px;
-            background-color: #191919;
-            border: 1px solid #3a3a3a;
+            background-color: var(--bgButton);
+            border: 1px solid var(--borderButton);
          }
 
          a:hover {
-            color: #e9e6e6eb;
+            color: var(--linkHover);
          }
 
          .active {

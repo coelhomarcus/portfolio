@@ -22,7 +22,7 @@
 }
 
 .navlink:hover {
-   background: #191919;
+   background: var(--bgButton);
 
    span {
       margin-left: 20px;

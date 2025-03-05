@@ -2,8 +2,8 @@
    display: flex;
    justify-content: center;
    align-items: center;
-   background-color: #191919;
-   border: 1px solid #3a3a3a;
+   background-color: var(--bgButton);
+   border: 1px solid var(--borderButton);
    border-radius: 6px;
    width: 50px;
    height: 50px;
@@ -15,14 +15,14 @@
    font-size: 2rem;
    display: flex;
    align-items: center;
-   color: #94949488;
+   color: var(--colorButton);
    transition: all 0.5s ease;
    text-decoration: none;
 }
 
 .button:hover {
    .customIcon {
-      color: #e9e6e6af;
+      color: var(--linkHover);
    }
 }
 
@@ -30,21 +30,21 @@ a {
    display: flex;
    align-items: center;
    height: 2.75rem;
-   color: #94949488;
+   color: var(--colorButton);
    transition: all 0.5s ease;
    text-decoration: none;
 }
 
 a:hover {
-   color: #e9e6e6af;
+   color: var(--linkHover);
 }
 
 .navlink {
    display: flex;
    justify-content: center;
    align-items: center;
-   background-color: #191919;
-   border: 1px solid #3a3a3a;
+   background-color: var(--bgButton);
+   border: 1px solid var(--borderButton);
    border-radius: 6px;
    width: 200px;
    height: 50px;
