@@ -4,7 +4,7 @@
    text-decoration: none;
    border-radius: 6px;
    transition: all .3s ease;
-   height: 8rem;
+   height: 6rem;
    border: 1px solid transparent;
 
    span {
@@ -36,14 +36,56 @@
    }
 }
 
+.certlink {
+   padding-block: 25px;
+   /* padding-inline: 5px; */
+   text-decoration: none;
+   border-radius: 6px;
+   transition: all .3s ease;
+   height: 8rem;
+   border: 1px solid transparent;
+
+   span {
+      transition: all .3s ease;
+      margin-left: 5px;
+   }
+
+   h1 {
+      color: var(--textWhite);
+      font-size: 1rem;
+      font-weight: 400;
+      margin-bottom: 5px;
+   }
+
+   p {
+      color: var(--textGrey);
+      font-size: 0.9rem;
+      font-weight: 400;
+      margin-bottom: 3px;
+   }
+}
+
+.certlink:hover {
+   background: var(--bgButton);
+   border: 1px solid var(--borderButton);
+
+   span {
+      margin-left: 12px;
+   }
+}
+
 @media (max-width: 1150px) {
-   .navlink {
+
+   .navlink,
+   .certlink {
       height: auto;
    }
 }
 
 @media (max-width: 750px) {
-   .navlink:hover {
+
+   .navlink:hover,
+   .certlink:hover {
       span {
          margin-left: 5px;
       }
