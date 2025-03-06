@@ -9,6 +9,8 @@ import Stack from './Stack/Stack'
 import DeskSetup from './Stack/DeskSetup/DeskSetup'
 import DevStack from './Stack/DevStack/DevStack'
 import VSCode from './Stack/VSCode/VSCode'
+import Repos from './Repos/Repos'
+import Projects from './Projects/Projects';
 
 
 function App() {
@@ -22,6 +24,8 @@ function App() {
             <Route path="stack/desk-setup" element={<DeskSetup />} />
             <Route path="stack/dev-stack" element={<DevStack />} />
             <Route path="stack/vs-setup" element={<VSCode />} />
+            <Route path="repos" element={<Repos />} />
+            <Route path="projects" element={<Projects />} />
          </Routes>
 
       </div>
