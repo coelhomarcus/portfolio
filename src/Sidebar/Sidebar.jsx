@@ -19,10 +19,10 @@ const Sidebar = () => {
          </div>
          <div className="options">
             <NavLink to="/" end>Home</NavLink>
-            <NavLink to="contact">Contact</NavLink>
             <NavLink to="stack">Stack</NavLink>
+            <NavLink to="contact">Contact</NavLink>
             <NavLink to="projects">Projects</NavLink>
-            <NavLink to="repos">Repos</NavLink>
+            <NavLink to="certificates">Certificates</NavLink>
             <NavLink to="stuff">My Stuff</NavLink>
          </div>
       </div>
