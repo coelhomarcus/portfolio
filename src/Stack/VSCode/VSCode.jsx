@@ -4,9 +4,9 @@ import Text from '../../Components/Text/Text'
 
 const VSCode = () => {
    return (
-      <div className='stackItems'>
+      <div className='main'>
          <Head title="VSCode" />
-         <div className="button"><button onClick={() => window.history.back()}>↫ Back</button></div>
+         <button className="backButton" onClick={() => window.history.back()}>↫ Back</button>
          <Text h1="Visual Studio Code Setup" p="My vscode settings." />
          <Text h2="Extensions"
             pArray={[

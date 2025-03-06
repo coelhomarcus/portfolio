@@ -94,29 +94,27 @@ body {
    flex-direction: column;
    gap: 30px;
    animation: enter 0.4s ease;
+
+   .options {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+   }
 }
 
-.stackItems {
-   display: flex;
-   flex-direction: column;
-   gap: 15px;
+.backButton {
+   text-align: start;
+   font-size: 1rem;
+   cursor: pointer;
+   border: none;
+   background: none;
+   color: var(--textGrey);
+   width: 5rem;
+   transition: all .4s ease;
+}
 
-   button {
-      text-align: start;
-      font-size: 1rem;
-      cursor: pointer;
-      border: none;
-      background: none;
-      color: var(--textGrey);
-      width: 5rem;
-      transition: all .4s ease;
-   }
-
-   button:hover {
-      color: var(--textWhite);
-   }
-
-   animation: enter 0.4s ease;
+.backButton:hover {
+   color: var(--textWhite);
 }
 
 .flexRow {
@@ -144,20 +142,12 @@ body {
 }
 
 @media (max-width: 1150px) {
-   .stackItems {
-      display: flex;
-      flex-direction: column;
-      gap: 15px;
-
-      .button {
-         button {
-            padding: 10px 20px;
-            width: auto;
-            background-color: var(--bgButton);
-            border: 1px solid var(--borderButton);
-            border-radius: 6px;
-         }
-      }
+   .backButton {
+      padding: 10px 20px;
+      width: 100px;
+      background-color: var(--bgButton);
+      border: 1px solid var(--borderButton);
+      border-radius: 6px;
    }
 
    .content {

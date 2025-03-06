@@ -12,12 +12,10 @@ import { SiInsomnia, SiTodoist, SiMysql, SiMongodb, SiXcode } from "react-icons/
 
 const DevStack = () => {
    return (
-      <div className='stackItems'>
+      <div className='main'>
          <Head title="Dev Stack" />
-         <div className="button"><button onClick={() => window.history.back()}>↫ Back</button></div>
-
+         <button className="backButton" onClick={() => window.history.back()}>↫ Back</button>
          <Text h1="Development Stack" p="All of the apps, tools, languages and services I use to build my projects." />
-
          <div className='flexColumn'>
             <Text h2="Programming & Typesetting Languages" />
 

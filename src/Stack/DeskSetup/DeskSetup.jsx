@@ -6,9 +6,9 @@ import Text from '../../Components/Text/Text';
 
 const DeskSetup = () => {
    return (
-      <div className='stackItems'>
+      <div className='main'>
          <Head title="PC" />
-         <div className="button"><button onClick={() => window.history.back()}>↫ Back</button></div>
+         <button className="backButton" onClick={() => window.history.back()}>↫ Back</button>
          <Text h1="Desk Setup" p="My workspace." />
          <Text h2="PC"
             pArray={[

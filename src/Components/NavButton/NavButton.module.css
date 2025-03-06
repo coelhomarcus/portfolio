@@ -1,7 +1,6 @@
 .navlink {
-   margin-bottom: 5px;
    padding-block: 25px;
-   padding-inline: 5px;
+   /* padding-inline: 5px; */
    text-decoration: none;
    border-radius: 6px;
    transition: all .3s ease;
@@ -29,6 +28,6 @@
    background: var(--bgButton);
 
    span {
-      margin-left: 5px;
+      margin-left: 10px;
    }
 }
