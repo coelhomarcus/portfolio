@@ -219,7 +219,7 @@ body {
    .gridColumn {
       display: grid;
       grid-template-columns: 1fr;
-      gap: 50px;
+      gap: 30px;
    }
 
    .content {
@@ -227,7 +227,6 @@ body {
       display: flex;
       flex-direction: column;
       margin-top: 40px;
-
    }
 
    .profile {
