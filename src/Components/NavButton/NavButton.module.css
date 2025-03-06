@@ -35,3 +35,17 @@
       margin-left: 12px;
    }
 }
+
+@media (max-width: 1150px) {
+   .navlink {
+      height: auto;
+   }
+}
+
+@media (max-width: 750px) {
+   .navlink:hover {
+      span {
+         margin-left: 5px;
+      }
+   }
+}
