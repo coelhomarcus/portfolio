@@ -1,0 +1,90 @@
+.card {
+   background-color: var(--bgButton);
+   border: 1px solid var(--borderButton);
+   border-radius: 6px;
+   display: grid;
+   grid-template-rows: 1.5fr 0.5fr 0.5fr;
+   width: 310px;
+   height: 375px;
+   gap: 10px;
+   align-self: center;
+   padding: 1rem;
+   transition: all .2s ease;
+
+   p {
+      height: 50px;
+   }
+
+   a {
+      background: none;
+      width: 100%;
+      height: 50px;
+      padding: 0;
+   }
+
+   svg {
+      font-size: 1.8rem;
+   }
+
+   span {
+      display: flex;
+      gap: 20px;
+      justify-content: start;
+   }
+
+   img {
+      border-radius: 6px;
+      width: 100%;
+      height: 180px;
+   }
+}
+
+@media (max-width: 1150px) {
+   .card {
+      width: auto;
+      height: 480px;
+      gap: 20px;
+
+      span {
+         display: flex;
+         gap: 20px;
+         justify-content: space-between;
+      }
+
+
+      p {
+         height: initial;
+      }
+
+
+      a {
+         width: 100%;
+         height: 50px;
+         padding: 0;
+         font-size: 20px;
+         border: 1px solid var(--borderButton);
+      }
+
+      img {
+         height: 300px;
+         object-fit: cover;
+      }
+   }
+}
+
+@media (max-width: 800px) {
+   .card {
+      width: auto;
+      height: auto;
+
+      a {
+         width: 100%;
+         height: 100%;
+      }
+
+      img {
+         height: 300px;
+         object-fit: cover;
+      }
+   }
+}

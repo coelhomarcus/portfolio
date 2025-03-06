@@ -2,6 +2,7 @@ import React from 'react'
 import Text from '../Components/Text/Text';
 import Head from '../Head/Head';
 import NavButton from '../Components/NavButton/NavButton';
+import Card from '../Components/Card/Card';
 
 const Projects = () => {
    return (
@@ -12,12 +13,12 @@ const Projects = () => {
             <Text h2="Primary Projects" />
             <Text p="WIP" />
          </div>
-         <div className="options">
-            <Text h2="Experimental / Prototypes" />
-            <NavButton href="https://bash.coelhomarcus.com" h1="BunnyBash" p="A website that simulates a terminal" />
-            <NavButton href="https://catype.coelhomarcus.com" h1="CaType" p="Typing page prototype" />
-            <NavButton href="https://bakanull.itch.io/mailman" h1="Mailman" p="Another prototype of a retro horror game" />
-            <NavButton href="https://bakanull.itch.io/right-choice" h1="Right Choice" p="A prototype of a retro horror game. It's essentially a walking simulator" />
+         <Text h2="Experimental / Prototypes" />
+         <div className='gridColumn'>
+            <Card img="https://img.coelhomarcus.com/banner/bash.png" github="https://github.com/coelhomarcus/bunnybash" link="https://bash.coelhomarcus.com" title="BunnyBash" desc="A website that simulates a terminal" />
+            <Card img="https://img.coelhomarcus.com/banner/catype.png" github="https://github.com/coelhomarcus/catype" link="https://catype.coelhomarcus.com" title="Catype" desc="Typing page prototype" />
+            <Card img="https://img.coelhomarcus.com/banner/mailman.png" link="https://bakanull.itch.io/mailman" title="Mailman" desc="A prototype of a retro horror game" />
+            <Card img="https://img.coelhomarcus.com/banner/choice.png" link="https://bakanull.itch.io/right-choice" title="Right Choice" desc="My first prototype of a retro horror game" />
          </div>
       </div>
    )

@@ -1,13 +1,10 @@
 import React from 'react'
-import { FaLinkedin, FaGithub, FaCat } from "react-icons/fa6";
+import { FaLinkedin, FaGithub } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
-
 
 import Head from '../Head/Head'
 import Button from '../Components/Button/Button';
 import Text from '../Components/Text/Text';
-
-
 
 const Contact = () => {
    return (

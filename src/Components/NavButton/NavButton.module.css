@@ -5,6 +5,7 @@
    border-radius: 6px;
    transition: all .3s ease;
    height: 6rem;
+   border: 1px solid transparent;
 
    span {
       transition: all .3s ease;
@@ -26,6 +27,7 @@
 
 .navlink:hover {
    background: var(--bgButton);
+   border: 1px solid var(--borderButton);
 
    span {
       margin-left: 10px;

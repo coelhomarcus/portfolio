@@ -21,6 +21,9 @@
 }
 
 .button:hover {
+   background-color: var(--bgHoverButton);
+   border: 1px solid var(--borderHoverButton);
+
    .customIcon {
       color: var(--linkHover);
    }
@@ -35,10 +38,6 @@ a {
    text-decoration: none;
 }
 
-a:hover {
-   color: var(--linkHover);
-}
-
 .navlink {
    display: flex;
    justify-content: center;
@@ -51,4 +50,13 @@ a:hover {
    cursor: pointer;
    transition: all 0.5s ease;
    font-size: 1rem;
+}
+
+.navlink:hover {
+   background-color: var(--bgHoverButton);
+   border: 1px solid var(--borderHoverButton);
+
+   a {
+      color: var(--linkHover);
+   }
 }
