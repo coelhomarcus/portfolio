@@ -1,10 +1,12 @@
 import React from 'react'
 import Text from '../Components/Text/Text';
+import Head from '../Head/Head';
 import NavButton from '../Components/NavButton/NavButton';
 
 const Repos = () => {
    return (
       <div className='main'>
+         <Head title="Repos" />
          <Text h1="GitHub Repositories" p="My repositories on GitHub" />
          <div className="options">
             <NavButton href="https://github.com/coelhomarcus/coelhomarcus.com" h1="Portfolio" p="Repository of this portfolio" />
