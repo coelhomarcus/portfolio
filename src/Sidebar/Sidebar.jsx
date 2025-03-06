@@ -15,6 +15,7 @@ const Sidebar = () => {
             <NavLink to="stack">Stack</NavLink>
             <NavLink to="projects">Projects</NavLink>
             <NavLink to="repos">Repos</NavLink>
+            <NavLink to="stuff">My Stuff</NavLink>
          </div>
       </div>
    )

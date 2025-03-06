@@ -11,6 +11,7 @@ import DevStack from './Stack/DevStack/DevStack'
 import VSCode from './Stack/VSCode/VSCode'
 import Repos from './Repos/Repos'
 import Projects from './Projects/Projects';
+import Stuff from './Stuff/Stuff';
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
             <Route path="stack/vs-setup" element={<VSCode />} />
             <Route path="repos" element={<Repos />} />
             <Route path="projects" element={<Projects />} />
+            <Route path="stuff" element={<Stuff />} />
          </Routes>
 
       </div>
