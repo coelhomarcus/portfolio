@@ -30,7 +30,7 @@ body {
    margin-top: 80px;
    margin-bottom: 80px;
    display: grid;
-   grid-template-columns: 1.5fr 200px 600px 1.5fr;
+   grid-template-columns: 1fr 200px 700px 1fr;
 }
 
 .profile {
@@ -133,7 +133,7 @@ body {
 
 .gridColumn {
    display: grid;
-   grid-template-columns: 1fr 1fr;
+   grid-template-columns: 310px 310px;
    gap: 10px;
 }
 
@@ -212,6 +212,10 @@ body {
 
    .home {
       grid-column: 2;
+   }
+
+   .gridColumn {
+      grid-template-columns: 1fr 1fr;
    }
 }
 

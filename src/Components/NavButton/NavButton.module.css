@@ -37,17 +37,34 @@
 }
 
 .certlink {
+   display: flex;
+   flex-direction: column;
+   justify-content: start;
+   align-items: start;
    padding-block: 25px;
    /* padding-inline: 5px; */
    text-decoration: none;
    border-radius: 6px;
    transition: all .3s ease;
-   height: 8rem;
+   height: 10rem;
    border: 1px solid transparent;
 
    span {
+      width: auto;
       transition: all .3s ease;
       margin-left: 5px;
+   }
+
+
+   div {
+      width: auto;
+      font-size: 1.5rem;
+      display: flex;
+      gap: 5px;
+   }
+
+   svg {
+      transition: all 1s ease;
    }
 
    h1 {
@@ -70,8 +87,12 @@
    border: 1px solid var(--borderButton);
 
    span {
-      margin-left: 12px;
+      transform: translateX(12px);
    }
+}
+
+svg:hover {
+   color: var(--linkHover);
 }
 
 @media (max-width: 1150px) {
@@ -87,7 +108,24 @@
    .navlink:hover,
    .certlink:hover {
       span {
-         margin-left: 5px;
+         transform: translateX(0);
+      }
+   }
+}
+
+@media (max-width: 400px) {
+   .certlink {
+      word-break: break-word;
+
+      span {
+         h1 {
+            font-size: 0.8rem !important;
+         }
+
+         p {
+            font-size: 0.7rem !important;
+
+         }
       }
    }
 }

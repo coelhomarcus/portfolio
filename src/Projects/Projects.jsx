@@ -13,7 +13,7 @@ const Projects = () => {
             <Text h2="Primary Projects" />
             <Text p="WIP" />
          </div>
-         <Text h2="Experimental / Prototypes" />
+         <Text h2="Experimental / Prototypes" p="Projects I created for learning and curiosity" />
          <div className='gridColumn'>
             <Card img="./projectsimg/bash.webp" github="https://github.com/coelhomarcus/bunnybash" link="https://bash.coelhomarcus.com" title="BunnyBash" desc="A website that simulates a terminal" />
             <Card img="./projectsimg/catype.webp" github="https://github.com/coelhomarcus/catype" link="https://catype.coelhomarcus.com" title="Catype" desc="Typing page prototype" />
