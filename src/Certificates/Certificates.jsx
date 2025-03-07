@@ -18,7 +18,7 @@ const Certificates = () => {
                cert="13f9b32b"
                date="mar/2025"
                href="https://www.origamid.com/certificate/13f9b32b"
-               h1="Complete React"
+               h1="Complete React with JavaScript"
                p="Origamid">
                <IoLogoReact title="React" />
                <SiReactrouter title="React Router" />
