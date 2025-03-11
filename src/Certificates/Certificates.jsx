@@ -5,8 +5,9 @@ import NavButton from '../Components/NavButton/NavButton';
 
 import { IoLogoJavascript, IoLogoHtml5, IoLogoCss3, IoLogoReact, IoLogoNodejs } from "react-icons/io5";
 import { FaSwift, FaGithub, FaUnity, FaGitAlt } from "react-icons/fa6";
-import { SiXcode, SiBlender, SiNodered, SiVite, SiReactrouter } from "react-icons/si";
+import { SiXcode, SiBlender, SiNodered, SiVite, SiReactrouter, SiTailwindcss } from "react-icons/si";
 import { TbBrandCSharp, TbJson } from "react-icons/tb";
+
 
 const Certificates = () => {
    return (
@@ -18,7 +19,7 @@ const Certificates = () => {
                cert="13f9b32b"
                date="mar/2025"
                href="https://www.origamid.com/certificate/13f9b32b"
-               h1="Complete React with JavaScript"
+               h1="React with JavaScript"
                p="Origamid">
                <IoLogoReact title="React" />
                <SiReactrouter title="React Router" />
@@ -28,10 +29,20 @@ const Certificates = () => {
                <SiVite title="Vite" />
             </NavButton>
             <NavButton
+               cert="3fe3a556 "
+               date="mar/2025"
+               href="https://www.origamid.com/certificate/3fe3a556"
+               h1="Tailwind"
+               p="Origamid">
+               <SiTailwindcss title="Tailwind" />
+               <IoLogoHtml5 title="HTML" />
+               <IoLogoCss3 title="CSS" />
+            </NavButton>
+            <NavButton
                cert="b1ee7546"
                date="feb/2025"
                href="https://www.origamid.com/certificate/b1ee7546"
-               h1="Complete JavaScript ES6+"
+               h1="JavaScript ES6+"
                p="Origamid">
                <IoLogoJavascript title="JavaScript" />
                <IoLogoHtml5 title="HTML" />

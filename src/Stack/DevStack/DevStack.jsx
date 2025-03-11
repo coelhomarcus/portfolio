@@ -5,11 +5,12 @@ import Head from '../../Head/Head'
 import Button from '../../Components/Button/Button';
 import Text from '../../Components/Text/Text';
 
-import { IoLogoJavascript, IoLogoHtml5, IoLogoCss3, IoLogoPython, IoLogoReact, IoLogoNodejs } from "react-icons/io5";
+import { IoLogoHtml5, IoLogoCss3, IoLogoPython, IoLogoReact, IoLogoNodejs } from "react-icons/io5";
 import { FaJava, FaSwift, FaFigma, FaBrave, FaGithub, FaUnity } from "react-icons/fa6";
 import { VscVscode } from "react-icons/vsc";
-import { SiInsomnia, SiTodoist, SiMysql, SiMongodb, SiXcode, SiBlender, SiVite, SiReactrouter, SiTypescript, SiGodotengine, SiTailwindcss } from "react-icons/si";
+import { SiInsomnia, SiTodoist, SiMysql, SiMongodb, SiXcode, SiBlender, SiVite, SiReactrouter, SiGodotengine, SiTailwindcss } from "react-icons/si";
 import { TbBrandCSharp } from "react-icons/tb";
+import { BiLogoTypescript, BiLogoJavascript } from "react-icons/bi";
 
 const DevStack = () => {
    return (
@@ -20,8 +21,8 @@ const DevStack = () => {
          <div className='flexColumn'>
             <Text h2="Programming & Typesetting Languages" />
             <div className='flexRow'>
-               <Button onlyIcon title="JavaScript"><IoLogoJavascript /></Button>
-               <Button onlyIcon title="TypeScript"><SiTypescript /></Button>
+               <Button onlyIcon title="JavaScript"><BiLogoJavascript /></Button>
+               <Button onlyIcon title="TypeScript"><BiLogoTypescript /></Button>
                <Button onlyIcon title="HTML"><IoLogoHtml5 /></Button>
                <Button onlyIcon title="CSS"><IoLogoCss3 /></Button>
                <Button onlyIcon title="Python"><IoLogoPython /></Button>
