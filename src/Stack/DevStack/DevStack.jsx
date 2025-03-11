@@ -8,7 +8,7 @@ import Text from '../../Components/Text/Text';
 import { IoLogoJavascript, IoLogoHtml5, IoLogoCss3, IoLogoPython, IoLogoReact, IoLogoNodejs } from "react-icons/io5";
 import { FaJava, FaSwift, FaFigma, FaBrave, FaGithub, FaUnity } from "react-icons/fa6";
 import { VscVscode } from "react-icons/vsc";
-import { SiInsomnia, SiTodoist, SiMysql, SiMongodb, SiXcode, SiBlender, SiVite, SiReactrouter, SiTypescript, SiGodotengine } from "react-icons/si";
+import { SiInsomnia, SiTodoist, SiMysql, SiMongodb, SiXcode, SiBlender, SiVite, SiReactrouter, SiTypescript, SiGodotengine, SiTailwindcss } from "react-icons/si";
 import { TbBrandCSharp } from "react-icons/tb";
 
 const DevStack = () => {
@@ -39,6 +39,7 @@ const DevStack = () => {
                <Button onlyIcon title="React Router"><SiReactrouter /></Button>
                <Button onlyIcon title="NodeJs"><IoLogoNodejs /></Button>
                <Button onlyIcon title="Vite"><SiVite /></Button>
+               <Button onlyIcon title="Tailwind"><SiTailwindcss /></Button>
             </div>
          </div>
 

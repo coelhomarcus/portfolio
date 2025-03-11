@@ -10,13 +10,14 @@ const VSCode = () => {
          <Text h1="Visual Studio Code Setup" p="My vscode settings." />
          <Text h2="Extensions"
             pArray={[
-               "• Themes: Vesper, Min Theme, Aura Theme",
+               "• Themes: Vesper",
                "• Icon Theme: Symbols",
                "• ESLint",
                "• GitLens",
-               "• Live Server",
+               "• Live Preview",
                "• Color Highlight",
-               "• ES7+ React/Redux/React-Native snippets"
+               "• ES7+ React/Redux/React-Native snippets",
+               "• Tailwind CSS IntelliSense"
             ]} />
       </div>
    )
