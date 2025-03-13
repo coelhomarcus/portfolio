@@ -10,8 +10,11 @@ const Projects = () => {
          <Head title="Projects" />
          <Text h1="Projects" p="My projects that are live" />
          <div className="options">
-            <Text h2="Primary Projects" />
-            <Text p="WIP" />
+            <Text h2="Primary Projects" p="Real projects" />
+            <div className='gridColumn'>
+               <Card img="./projectsimg/sos.webp" link="https://www.youtube.com/shorts/0fSoHjAadas" title="SOS Queimadas" desc="IOS App for Wildfire Alert and Control" />
+               <Card img="./projectsimg/canaa.webp" link="https://www.youtube.com/shorts/0fSoHjAadas" title="Conecta Canaã" desc="Website for local services and community information in Canaã - PA" />
+            </div>
          </div>
          <Text h2="Experimental / Prototypes" p="Projects I created for learning and curiosity" />
          <div className='gridColumn'>

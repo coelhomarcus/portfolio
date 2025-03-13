@@ -5,8 +5,8 @@
    display: grid;
    grid-template-rows: 1.5fr 0.5fr 0.5fr;
    width: 310px;
-   height: 375px;
-   gap: 10px;
+   height: 400px;
+   gap: 20px;
    align-self: center;
    padding: 1rem;
    transition: all .2s ease;
