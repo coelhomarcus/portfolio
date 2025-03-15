@@ -18,14 +18,24 @@ import NotFound from './NotFound/NotFound';
 import Aurora from './ReactBits/Aurora/Aurora';
 
 function App() {
+   const [isLoaded, setIsLoaded] = React.useState(false);
+
+   React.useEffect(() => {
+      const timer = setTimeout(() => {
+         setIsLoaded(true);
+      }, 500);
+
+      return () => clearTimeout(timer);
+   }, []);
+
    return (
       <div className='container'>
-         <Aurora
+         {isLoaded ? <Aurora
             colorStops={["#00D8FF", "#7CFF67", "#00D8FF"]}
             blend={1}
             amplitude={1}
             speed={1}
-         />
+         /> : null}
          <div className='content'>
             <Sidebar />
             <Routes>

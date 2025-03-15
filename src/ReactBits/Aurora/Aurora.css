@@ -1,14 +1,25 @@
 .aurora-container {
+   position: fixed;
    opacity: 0.15;
    width: 100%;
    height: 50%;
-   position: absolute;
    inset: 0;
    z-index: -1;
+   animation: enterBG 0.5s ease;
 }
 
 @media (max-width: 780px) {
    .aurora-container {
       height: 30%;
+   }
+}
+
+@keyframes enterBG {
+   from {
+      opacity: 0;
+   }
+
+   to {
+      opacity: 0.15;
    }
 }
