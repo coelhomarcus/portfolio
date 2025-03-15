@@ -8,8 +8,8 @@ const DeskSetup = () => {
    return (
       <div className='main'>
          <Head title="PC" />
-         <button className="backButton" onClick={() => window.history.back()}>↫ Back</button>
-         <Text h1="Desk Setup" p="My workspace." />
+         <button className="backButton" onClick={() => window.history.back()}>↫ Voltar</button>
+         <Text h1="Meu Setup" />
          <Text h2="PC"
             pArray={[
                "• i5 10400f",
@@ -17,7 +17,7 @@ const DeskSetup = () => {
                "• 24gb RAM",
                "• SSD 500gb &  HD 1tb"
             ]} />
-         <Text h2="Peripherals"
+         <Text h2="Periféricos"
             pArray={[
                "• ASRock Phantom Gaming PG27FF1A",
                "• AOC 27B1HM",

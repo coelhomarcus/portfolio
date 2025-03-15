@@ -15,11 +15,11 @@ import { BiLogoTypescript, BiLogoJavascript } from "react-icons/bi";
 const DevStack = () => {
    return (
       <div className='main'>
-         <Head title="Dev Stack" />
-         <button className="backButton" onClick={() => window.history.back()}>↫ Back</button>
-         <Text h1="Development Stack" p="All of the apps, tools, languages and services I use to build my projects." />
+         <Head title="Stack" />
+         <button className="backButton" onClick={() => window.history.back()}>↫ Voltar</button>
+         <Text h1="Stack" p="Todos os app, ferramentas, linguagens, serviços que uso." />
          <div className='flexColumn'>
-            <Text h2="Programming & Typesetting Languages" />
+            <Text h2="Linguagens de Programação e Tipagem" />
             <div className='flexRow'>
                <Button onlyIcon title="JavaScript"><BiLogoJavascript /></Button>
                <Button onlyIcon title="TypeScript"><BiLogoTypescript /></Button>
@@ -33,7 +33,7 @@ const DevStack = () => {
          </div>
 
          <div className='flexColumn'>
-            <Text h2="Frameworks, Libraries & More" />
+            <Text h2="Frameworks, Bibliotecas & Outros" />
 
             <div className='flexRow'>
                <Button onlyIcon title="React"><IoLogoReact /></Button>
@@ -45,7 +45,7 @@ const DevStack = () => {
          </div>
 
          <div className='flexColumn'>
-            <Text h2="Database" />
+            <Text h2="Banco de Dados" />
             <div className='flexRow'>
                <Button onlyIcon title="MySQL"><SiMysql /></Button>
                <Button onlyIcon title="MongoDB"><SiMongodb /></Button>

@@ -6,15 +6,15 @@ const VSCode = () => {
    return (
       <div className='main'>
          <Head title="VSCode" />
-         <button className="backButton" onClick={() => window.history.back()}>↫ Back</button>
-         <Text h1="Visual Studio Code Setup" p="My vscode settings." />
-         <Text h2="Extensions"
+         <button className="backButton" onClick={() => window.history.back()}>↫ Voltar</button>
+         <Text h1="Visual Studio Code Setup" p="Minhas configurações no vscode" />
+         <Text h2="Extensões"
             pArray={[
-               "• Themes: Vesper",
-               "• Icon Theme: Symbols",
+               "• Tema: Vesper",
+               "• Icones: Symbols",
                "• ESLint",
                "• GitLens",
-               "• Live Preview",
+               "• Live Server",
                "• Color Highlight",
                "• ES7+ React/Redux/React-Native snippets",
                "• Tailwind CSS IntelliSense"

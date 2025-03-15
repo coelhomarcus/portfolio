@@ -233,7 +233,7 @@ body {
       display: flex;
       flex-direction: column;
       margin-top: 40px;
-      margin-inline: 5px;
+      margin-inline: 20px;
    }
 
    .profile {

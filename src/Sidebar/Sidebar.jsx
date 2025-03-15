@@ -8,7 +8,7 @@ const Sidebar = () => {
          <div className="profile">
             <Tooltip
                id="my-tooltip"
-               content="Hello!"
+               content="Olá!"
                place="right"
                border="1px solid var(--borderButton)"
                style={{ backgroundColor: "var(--bgButton)", color: "var(--textWhite)" }}
@@ -18,12 +18,12 @@ const Sidebar = () => {
             <p>Front-end Developer</p>
          </div>
          <div className="options">
-            <NavLink to="/" end>Home</NavLink>
+            <NavLink to="/" end>Início</NavLink>
             <NavLink to="stack">Stack</NavLink>
-            <NavLink to="contact">Contact</NavLink>
-            <NavLink to="projects">Projects</NavLink>
-            <NavLink to="certificates">Certificates</NavLink>
-            <NavLink to="stuff">My Stuff</NavLink>
+            <NavLink to="contact">Contato</NavLink>
+            <NavLink to="projects">Projetos</NavLink>
+            <NavLink to="certificates">Certificados</NavLink>
+            <NavLink to="stuff">Outros</NavLink>
          </div>
       </div>
    )

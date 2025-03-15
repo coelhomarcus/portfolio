@@ -8,11 +8,11 @@ const Stack = () => {
    return (
       <div className='main'>
          <Head title="Stack" />
-         <Text h1="Stack" p="Tools & products I use daily." />
+         <Text h1="Stack" p="Ferramentas que uso diariamente." />
          <div className="options">
-            <NavButton to="dev-stack" h1="Development Stack" p="All of the apps, tools, and services I use to build my projects." />
-            <NavButton to="desk-setup" h1="Desk Setup" p="My main workspace." />
-            <NavButton to="vs-setup" h1="VSCode Setup" p="The extensions, theme, and settings I use." />
+            <NavButton to="dev-stack" h1="Minha Stack" p="Todos os app, ferramentas, e serviços que uso." />
+            <NavButton to="desk-setup" h1="Meu Setup" p="Meu setup principal." />
+            <NavButton to="vs-setup" h1="VSCode Setup" p="Temas, extensões e configurações que uso" />
          </div>
       </div>
    )
