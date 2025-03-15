@@ -15,7 +15,7 @@ const Sidebar = () => {
             />
             <img data-tooltip-id="my-tooltip" src="https://avatars.githubusercontent.com/u/106438089?v=4" alt="" />
             <h1>Marcus Coelho</h1>
-            <p>Software Engineer</p>
+            <p>Front-end Developer</p>
          </div>
          <div className="options">
             <NavLink to="/" end>Home</NavLink>
