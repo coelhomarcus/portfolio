@@ -18,7 +18,7 @@ const Home = () => {
          <Head title="Home" />
          <Text h1="Home" />
          <Text h2="About" pArray={[
-            "I’m Marcus Coelho, a 20-year-old Fullstack Developer currently pursuing a Bachelor's degree in Information Systems at UNIFESSPA.",
+            "I’m Marcus Coelho, a 20-year-old Front-end Developer currently pursuing a Bachelor's degree in Information Systems at UNIFESSPA.",
             "As a Junior Developer, I’m always looking for new challenges to improve my skills and expand my knowledge.",
             "Passionate about technology and continuous learning, I strive to deliver high-quality solutions in every project I work on."]} />
          <Button to="stack/dev-stack">Check out my skills</Button>
