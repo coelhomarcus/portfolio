@@ -5,11 +5,11 @@
    --textWhite: #E9E6E6;
    --textGrey: #949494;
    --linkHover: #e9e6e6eb;
-   --bgButton: #191919;
+   --bgButton: transparent;
    --bgHoverButton: #111111;
    --borderHoverButton: #2b2b2b;
    --borderButton: #3a3a3a;
-   --colorButton: #94949488;
+   --colorButton: #949494c7;
 }
 
 * {
@@ -28,6 +28,7 @@ body {
 }
 
 .content {
+   position: relative;
    margin-top: 80px;
    margin-bottom: 80px;
    display: grid;

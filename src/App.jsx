@@ -14,24 +14,41 @@ import Projects from './Projects/Projects';
 import Stuff from './Stuff/Stuff';
 import NotFound from './NotFound/NotFound';
 
+//other
+import Aurora from './ReactBits/Aurora/Aurora';
+
+
+<Aurora
+   colorStops={["#3A29FF", "#FF94B4", "#FF3232"]}
+   blend={0.5}
+   amplitude={1.0}
+   speed={0.5}
+/>
 
 function App() {
    return (
-      <div className='content'>
-         <Sidebar />
-         <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="contact" element={<Contact />} />
-            <Route path="stack" element={<Stack />} />
-            <Route path="stack/desk-setup" element={<DeskSetup />} />
-            <Route path="stack/dev-stack" element={<DevStack />} />
-            <Route path="stack/vs-setup" element={<VSCode />} />
-            <Route path="certificates" element={<Certificates />} />
-            <Route path="projects" element={<Projects />} />
-            <Route path="stuff" element={<Stuff />} />
-            <Route path="*" element={<NotFound />} />
-         </Routes>
-
+      <div className='container'>
+         <Aurora
+            colorStops={["#00D8FF", "#7CFF67", "#00D8FF"]}
+            blend={1}
+            amplitude={1}
+            speed={1}
+         />
+         <div className='content'>
+            <Sidebar />
+            <Routes>
+               <Route path="/" element={<Home />} />
+               <Route path="contact" element={<Contact />} />
+               <Route path="stack" element={<Stack />} />
+               <Route path="stack/desk-setup" element={<DeskSetup />} />
+               <Route path="stack/dev-stack" element={<DevStack />} />
+               <Route path="stack/vs-setup" element={<VSCode />} />
+               <Route path="certificates" element={<Certificates />} />
+               <Route path="projects" element={<Projects />} />
+               <Route path="stuff" element={<Stuff />} />
+               <Route path="*" element={<NotFound />} />
+            </Routes>
+         </div>
       </div>
    )
 }
