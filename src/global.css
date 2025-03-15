@@ -155,7 +155,7 @@ body {
 @media (max-width: 1150px) {
    .backButton {
       padding: 10px 20px;
-      width: 100px;
+      width: 105px;
       background-color: var(--bgButton);
       border: 1px solid var(--borderButton);
       border-radius: 6px;
