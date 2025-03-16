@@ -13,7 +13,7 @@ const Sidebar = () => {
                border="1px solid var(--borderButton)"
                style={{ backgroundColor: "var(--bgButton)", color: "var(--textWhite)" }}
             />
-            <img data-tooltip-id="my-tooltip" src="https://avatars.githubusercontent.com/u/106438089?v=4" alt="" />
+            <img data-tooltip-id="my-tooltip" src="./img/Pessoal/marcus.webp" alt="" />
             <h1>Marcus Coelho</h1>
             <p>Front-end Developer</p>
          </div>
