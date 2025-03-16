@@ -1,6 +1,6 @@
 import React from 'react'
 import './global.css'
-import { Routes, Route } from "react-router";
+import { Routes, Route, useLocation } from "react-router";
 
 import Sidebar from './Sidebar/Sidebar'
 import Home from './Home/Home'
@@ -19,6 +19,7 @@ import Aurora from './ReactBits/Aurora/Aurora';
 
 function App() {
    const [isLoaded, setIsLoaded] = React.useState(false);
+   const location = useLocation();
 
    React.useEffect(() => {
       const timer = setTimeout(() => {
@@ -27,6 +28,8 @@ function App() {
 
       return () => clearTimeout(timer);
    }, []);
+
+   React.useEffect(() => scrollTo(top), [location]);
 
    return (
       <div className='container'>
