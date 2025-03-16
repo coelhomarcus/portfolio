@@ -3,7 +3,8 @@ import Text from '../Components/Text/Text';
 import Head from '../Head/Head';
 import NavButton from '../Components/NavButton/NavButton';
 
-import { IoLogoJavascript, IoLogoHtml5, IoLogoCss3, IoLogoReact, IoLogoNodejs } from "react-icons/io5";
+import { IoLogoHtml5, IoLogoCss3, IoLogoReact } from "react-icons/io5";
+import { BiLogoTypescript, BiLogoJavascript } from "react-icons/bi";
 import { FaSwift, FaGithub, FaUnity, FaGitAlt } from "react-icons/fa6";
 import { SiXcode, SiBlender, SiNodered, SiVite, SiReactrouter, SiTailwindcss } from "react-icons/si";
 import { TbBrandCSharp, TbJson } from "react-icons/tb";
@@ -23,10 +24,18 @@ const Certificates = () => {
                p="Origamid">
                <IoLogoReact title="React" />
                <SiReactrouter title="React Router" />
-               <IoLogoJavascript title="JavaScript" />
+               <BiLogoJavascript title="JavaScript" />
                <IoLogoHtml5 title="HTML" />
                <IoLogoCss3 title="CSS" />
                <SiVite title="Vite" />
+            </NavButton>
+            <NavButton
+               cert="84974e3e"
+               date="mar/2025"
+               href="https://www.origamid.com/certificate/84974e3e"
+               h1="TypeScript"
+               p="Origamid">
+               <BiLogoTypescript title="TypeScript" />
             </NavButton>
             <NavButton
                cert="3fe3a556 "
@@ -44,7 +53,7 @@ const Certificates = () => {
                href="https://www.origamid.com/certificate/b1ee7546"
                h1="JavaScript ES6+"
                p="Origamid">
-               <IoLogoJavascript title="JavaScript" />
+               <BiLogoJavascript title="JavaScript" />
                <IoLogoHtml5 title="HTML" />
                <IoLogoCss3 title="CSS" />
                <TbJson title="JSON" />
@@ -64,7 +73,7 @@ const Certificates = () => {
                href="https://ticemtrilhas.org.br/certificate-validation?code=8e8ad089-6179-4b5b-acd7-ede483cdd348"
                h1="Fundamentos de Desenvolvimento Web"
                p="TIC em Trilhas">
-               <IoLogoJavascript title="JavaScript" />
+               <BiLogoJavascript title="JavaScript" />
                <IoLogoHtml5 title="HTML" />
                <IoLogoCss3 title="CSS" />
             </NavButton>
