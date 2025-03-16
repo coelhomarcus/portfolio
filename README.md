@@ -1,17 +1,24 @@
+### Português
+# Sobre
+Este é meu projeto minimalista de portfólio feito em React.
+
+- Criado para testar meu conhecimento em `React, JavaScript, HTML, and CSS`.
+- Bibliotecas: `React Router, React Icons, React Bits, React Tooltip` .
+
+## Reporte de bugs e sugestões de melhorias
+Se você encontrar um bug ou tiver uma ideia, [me mande um e-mail](mailto:marcusrangelcoelho@gmail.com).
+
+
+#
+
+### English
+
 # About
 Here's my minimalist portfolio project built with React.
 
-Created to test my knowledge in `React, JavaScript, HTML, and CSS`.
-
-### Screenshots
-![Image](https://github.com/user-attachments/assets/4db6b312-7bf9-4823-9756-807f7ac181bc)
-
-![Image](https://github.com/user-attachments/assets/7c60b218-54da-438e-b3ad-07b07040e0ef)
-
-![Image](https://github.com/user-attachments/assets/e451cba9-a5bb-4804-8dcf-ac35958115a0)
-
+- Created to test my knowledge in `React, JavaScript, HTML, and CSS`.
+- Libraries: `React Router, React Icons, React Bits, React Tooltip` .
 
 ## Bug report or Feature request
 If you encounter a bug or have a feature request [send me an email](mailto:marcusrangelcoelho@gmail.com).
 
-### Thank you!
