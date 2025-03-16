@@ -12,7 +12,7 @@ const Projects = () => {
             <Text h2="Projetos Principais" />
             <div className='gridColumn'>
                <Card img="./img/Projects/sos.webp" link="https://www.youtube.com/shorts/0fSoHjAadas" title="SOS Queimadas" desc="App IOS para controle e alertas de queimadas" />
-               <Card img="./img/Projects/canaa.webp" link="https://www.youtube.com/shorts/0fSoHjAadas" title="Conecta Canaã" desc="Site de serviços locais e ocorrências em Canaã - PA" />
+               <Card img="./img/Projects/canaa.webp" link="https://conecta.smartcitycanaadoscarajas.com.br/" title="Conecta Canaã" desc="Site de serviços locais e ocorrências em Canaã - PA" />
             </div>
          </div>
          <Text h2="Experimentos / Protótipos" p="Projetos que criei por curiosidade ou estudos" />
