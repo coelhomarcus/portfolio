@@ -11,17 +11,17 @@ const NavButton = (props) => {
          {(props.cert && !props.children) && <a href={props.href} target="_blank" className={style.certlink}>
             <span>
                <h1>{props.h1}</h1>
-               <p>Issued by: {props.p}</p>
-               <p>Credential Code: {props.cert}</p>
-               <p>Issue Date: {props.date}</p>
+               <p>Emitido por: {props.p}</p>
+               <p>Data: {props.date}</p>
+               <p>Código: {props.cert}</p>
             </span>
          </a>}
          {props.children && <a href={props.href} target="_blank" className={style.certlink}>
             <span>
                <h1>{props.h1}</h1>
                <p>Emitido por: {props.p}</p>
-               <p>Código: {props.cert}</p>
                <p>Data: {props.date}</p>
+               <p>Código: {props.cert}</p>
                <div>
                   {props.children}
                </div>
