@@ -9,7 +9,8 @@ const DeskSetup = () => {
       <div className='main'>
          <Head title="PC" />
          <button className="backButton" onClick={() => window.history.back()}>↫ Voltar</button>
-         <Text h1="Meu Setup" />
+         <Text h1="Setup" />
+         <Text h2="Laptop" p="• Macbook Air M1" />
          <Text h2="PC"
             pArray={[
                "• i5 10400f",
