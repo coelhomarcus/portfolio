@@ -17,8 +17,8 @@ const Projects = () => {
          </div>
          <Text h2="Experimentos / Protótipos" p="Projetos que criei por curiosidade ou estudos" />
          <div className='gridColumn'>
-            <Card img="./img/Projects/bash.webp" github="https://github.com/coelhomarcus/bunnybash" link="https://bash.coelhomarcus.com" title="BunnyBash" desc="Um site que simula um terminal" />
-            <Card img="./img/Projects/catype.webp" github="https://github.com/coelhomarcus/catype" link="https://catype.coelhomarcus.com" title="Catype" desc="Protótipo de site de digitação" />
+            <Card img="./img/Projects/bash.webp" github="https://github.com/coelhomarcus/bunnybash" link="https://coelhomarcus.github.io/bunnybash/" title="BunnyBash" desc="Um site que simula um terminal" />
+            {/* <Card img="./img/Projects/catype.webp" github="https://github.com/coelhomarcus/catype" link="https://coelhomarcus.github.io/catype/" title="Catype" desc="Protótipo de site de digitação" /> */}
             <Card img="./img/Projects/mailman.webp" link="https://bakanull.itch.io/mailman" title="Mailman" desc="Protótipo de um jogo de terror antigo" />
             <Card img="./img/Projects/choice.webp" link="https://bakanull.itch.io/right-choice" title="Right Choice" desc="Protótipo de um jogo de terror antigo" />
          </div>
