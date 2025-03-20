@@ -50,6 +50,7 @@ const Projects = () => {
         <div className="gridColumn">
           {arrProj.map((item) => (
             <Card
+              key={item.title}
               img={item.img}
               link={item.link}
               title={item.title}
@@ -65,6 +66,7 @@ const Projects = () => {
       <div className="gridColumn">
         {arrExp.map((item) => (
           <Card
+            key={item.title}
             img={item.img}
             github={item.github}
             link={item.link}
