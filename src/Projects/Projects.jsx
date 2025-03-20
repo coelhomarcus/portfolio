@@ -38,6 +38,13 @@ const arrExp = [
     title: "Right Choice",
     desc: "Protótipo de um jogo de terror antigo",
   },
+  {
+    img: "./img/Projects/bakaneo.webp",
+    github: "https://github.com/coelhomarcus/bakaneo-vscode",
+    link: "https://marketplace.visualstudio.com/items?itemName=coelhomarcus.bakaneo",
+    title: "BakaNeo",
+    desc: "Meu primeiro tema dark para o VSCode",
+  },
 ];
 
 const Projects = () => {
