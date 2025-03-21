@@ -135,7 +135,7 @@ const Certificates = () => {
   return (
     <div className="main">
       <Head title="Certificados" />
-      <Text h1="Meus Certificados" p="Conhecimento nunca é pouco :D" />
+      <Text h1="Meus Certificados" p="Conhecimento nunca é demais!" />
       <div className="options">
         {arrCert.map((item) => (
           <NavButton
