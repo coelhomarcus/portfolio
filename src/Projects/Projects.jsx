@@ -8,13 +8,13 @@ const arrProj = [
     img: "./img/Projects/sos.webp",
     link: "https://www.youtube.com/shorts/0fSoHjAadas",
     title: "SOS Queimadas",
-    desc: "App IOS para controle e alertas de queimadas",
+    desc: "App IOS para conscientização e prevenção de queimadas",
   },
   {
     img: "./img/Projects/canaa.webp",
-    link: "https://conecta.smartcitycanaadoscarajas.com.br/",
+    link: "https://smartcitycanaadoscarajas.com.br/index.php/conectacanaa",
     title: "Conecta Canaã",
-    desc: "Site de serviços locais e ocorrências em Canaã - PA",
+    desc: "Site para serviços públicos e ocorrências em Canaã - PA",
   },
 ];
 
@@ -24,26 +24,26 @@ const arrExp = [
     github: "https://github.com/coelhomarcus/bunnybash",
     link: "https://coelhomarcus.github.io/bunnybash/",
     title: "BunnyBash",
-    desc: "Um site que simula um terminal",
+    desc: "Site que simula um terminal",
   },
   {
     img: "./img/Projects/mailman.webp",
     link: "https://bakanull.itch.io/mailman",
     title: "Mailman",
-    desc: "Protótipo de um jogo de terror antigo",
+    desc: "Protótipo de um jogo de terror retro",
   },
   {
     img: "./img/Projects/choice.webp",
     link: "https://bakanull.itch.io/right-choice",
     title: "Right Choice",
-    desc: "Protótipo de um jogo de terror antigo",
+    desc: "Protótipo de um jogo de terror retro",
   },
   {
     img: "./img/Projects/bakaneo.webp",
     github: "https://github.com/coelhomarcus/bakaneo-vscode",
     link: "https://marketplace.visualstudio.com/items?itemName=coelhomarcus.bakaneo",
     title: "BakaNeo",
-    desc: "Meu primeiro tema dark para o VSCode",
+    desc: "Tema dark para o VS Code",
   },
 ];
 
