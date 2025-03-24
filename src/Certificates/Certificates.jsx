@@ -26,7 +26,7 @@ const arrCert = [
     icons: [
       <IoLogoReact key="react" title="React" />,
       <SiReactrouter key="reactrouter" title="React Router" />,
-      <BiLogoTypescript key="typescript" title="React Router" />,
+      <BiLogoTypescript key="typescript" title="TypeScript" />,
       <SiVite key="vite" title="Vite" />,
     ],
   },
