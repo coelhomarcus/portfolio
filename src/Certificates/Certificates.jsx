@@ -18,6 +18,19 @@ import { TbBrandCSharp, TbJson } from "react-icons/tb";
 
 const arrCert = [
   {
+    cert: "e768c9c3",
+    date: "mar/2025",
+    href: "https://www.origamid.com/certificate/e768c9c3",
+    h1: "React com TypeScript",
+    p: "Origamid",
+    icons: [
+      <IoLogoReact key="react" title="React" />,
+      <SiReactrouter key="reactrouter" title="React Router" />,
+      <BiLogoTypescript key="typescript" title="React Router" />,
+      <SiVite key="vite" title="Vite" />,
+    ],
+  },
+  {
     cert: "13f9b32b",
     date: "mar/2025",
     href: "https://www.origamid.com/certificate/13f9b32b",
