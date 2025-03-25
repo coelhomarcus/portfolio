@@ -32,7 +32,6 @@ const Home = () => {
           "Sou fundador e Full Stack Developer de uma startup especializada em desenvolvimento de websites.",
         ]}
       />
-      <div></div>
     </div>
   );
 };
