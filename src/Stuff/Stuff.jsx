@@ -4,7 +4,7 @@ import Text from "../Components/Text/Text";
 import Button from "../Components/Button/Button";
 
 import { SiMonkeytype } from "react-icons/si";
-import { FaSteam, FaYoutube } from "react-icons/fa6";
+import { FaSteam, FaYoutube, FaItchIo } from "react-icons/fa6";
 
 const Stuff = () => {
   return (
@@ -17,6 +17,12 @@ const Stuff = () => {
       />
 
       <div className="flexRow">
+        <Button href="https://www.youtube.com/@coelhomarcus" title="My Channel">
+          <FaYoutube />
+        </Button>
+        <Button href="https://coelhomarcus.itch.io/" title="My Itch.io Profile">
+          <FaItchIo />
+        </Button>
         <Button
           href="https://monkeytype.com/profile/coelhomarcus"
           title="MonkeyType"
@@ -25,9 +31,6 @@ const Stuff = () => {
         </Button>
         <Button href="https://steamcommunity.com/id/bakanull/" title="My Steam">
           <FaSteam />
-        </Button>
-        <Button href="https://www.youtube.com/@coelhomarcus" title="My Channel">
-          <FaYoutube />
         </Button>
       </div>
       <Text
