@@ -28,13 +28,13 @@ const arrExp = [
   },
   {
     img: "./img/Projects/mailman.webp",
-    link: "https://bakanull.itch.io/mailman",
+    link: "https://coelhomarcus.itch.io/mailman",
     title: "Mailman",
     desc: "Protótipo de um jogo de terror retro",
   },
   {
     img: "./img/Projects/choice.webp",
-    link: "https://bakanull.itch.io/right-choice",
+    link: "https://coelhomarcus.itch.io/right-choice",
     title: "Right Choice",
     desc: "Protótipo de um jogo de terror retro",
   },

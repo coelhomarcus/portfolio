@@ -26,7 +26,7 @@ const Stuff = () => {
         <Button href="https://steamcommunity.com/id/bakanull/" title="My Steam">
           <FaSteam />
         </Button>
-        <Button href="https://www.youtube.com/@bakanull" title="My Channel">
+        <Button href="https://www.youtube.com/@coelhomarcus" title="My Channel">
           <FaYoutube />
         </Button>
       </div>
