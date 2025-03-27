@@ -102,6 +102,14 @@ const arrCert = [
     ],
   },
   {
+    cert: "UC-b71eae4c-5ded-44ad-a562-9d3293fa8ec1",
+    date: "nov/2024",
+    href: "https://ude.my/UC-b71eae4c-5ded-44ad-a562-9d3293fa8ec1/",
+    h1: "Blender - Básico ao Avançado",
+    p: "Gustavo Rosa",
+    icons: [<SiBlender key="blender" title="Blender" />],
+  },
+  {
     cert: "731272b6-5951-4b31-928f-5ae202e4b56c",
     date: "out/2024",
     href: "https://ticemtrilhas.org.br/certificate-validation?code=731272b6-5951-4b31-928f-5ae202e4b56c",
