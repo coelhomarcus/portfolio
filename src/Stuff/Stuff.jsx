@@ -35,7 +35,7 @@ const Stuff = () => {
       </div>
       <Text
         h2="Bits & Bugs"
-        p="Nossa comunidade no discord feita por devs para devs, venha participar!"
+        p="Nossa comunidade no discord feita por devs para devs! 😁"
       />
       <iframe
         src="https://discord.com/widget?id=1353895304423936092&theme=dark"
