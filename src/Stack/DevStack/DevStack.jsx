@@ -6,11 +6,12 @@ import Button from '../../Components/Button/Button';
 import Text from '../../Components/Text/Text';
 
 import { IoLogoHtml5, IoLogoCss3, IoLogoPython, IoLogoReact, IoLogoNodejs } from "react-icons/io5";
-import { FaJava, FaSwift, FaFigma, FaBrave, FaGithub, FaUnity } from "react-icons/fa6";
+import { FaJava, FaSwift, FaFigma, FaGithub, FaUnity } from "react-icons/fa6";
 import { VscVscode } from "react-icons/vsc";
-import { SiInsomnia, SiTodoist, SiMysql, SiMongodb, SiXcode, SiBlender, SiVite, SiReactrouter, SiGodotengine, SiTailwindcss } from "react-icons/si";
+import { SiInsomnia, SiMysql, SiMongodb, SiBlender, SiVite, SiReactrouter, SiGodotengine, SiTailwindcss, SiExpress } from "react-icons/si";
 import { TbBrandCSharp } from "react-icons/tb";
-import { BiLogoTypescript, BiLogoJavascript } from "react-icons/bi";
+import { BiLogoTypescript, BiLogoJavascript, BiLogoPostgresql } from "react-icons/bi";
+
 
 const DevStack = () => {
    return (
@@ -36,17 +37,20 @@ const DevStack = () => {
             <Text h2="Frameworks, Bibliotecas & Outros" />
 
             <div className='flexRow'>
+               <Button onlyIcon title="Node.js"><IoLogoNodejs /></Button>
+               <Button onlyIcon title="Express.js"><SiExpress /></Button>
                <Button onlyIcon title="React"><IoLogoReact /></Button>
                <Button onlyIcon title="React Router"><SiReactrouter /></Button>
-               <Button onlyIcon title="NodeJs"><IoLogoNodejs /></Button>
                <Button onlyIcon title="Vite"><SiVite /></Button>
                <Button onlyIcon title="Tailwind"><SiTailwindcss /></Button>
+
             </div>
          </div>
 
          <div className='flexColumn'>
             <Text h2="Banco de Dados" />
             <div className='flexRow'>
+               <Button onlyIcon title="PostgreSQL"><BiLogoPostgresql /></Button>
                <Button onlyIcon title="MySQL"><SiMysql /></Button>
                <Button onlyIcon title="MongoDB"><SiMongodb /></Button>
             </div>
@@ -62,9 +66,6 @@ const DevStack = () => {
                <Button onlyIcon title="Unity"><FaUnity /></Button>
                <Button onlyIcon title="Godot"><SiGodotengine /></Button>
                <Button onlyIcon title="Blender"><SiBlender /></Button>
-               <Button onlyIcon title="Brave"><FaBrave /></Button>
-               <Button onlyIcon title="Todoist"><SiTodoist /></Button>
-               <Button onlyIcon title="XCode"><SiXcode /></Button>
             </div>
          </div>
 

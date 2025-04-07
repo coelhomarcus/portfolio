@@ -39,7 +39,7 @@ const arrExp = [
     desc: "Protótipo de um jogo de terror retro",
   },
   {
-    img: "./img/Projects/bakaneo.webp",
+    img: "./img/Projects/bakaneo.jpg",
     github: "https://github.com/coelhomarcus/bakaneo-vscode",
     link: "https://marketplace.visualstudio.com/items?itemName=coelhomarcus.bakaneo",
     title: "BakaNeo",
