@@ -3,8 +3,8 @@ import Text from "../Components/Text/Text";
 import Head from "../Head/Head";
 import NavButton from "../Components/NavButton/NavButton";
 
-import { IoLogoHtml5, IoLogoCss3, IoLogoReact } from "react-icons/io5";
-import { BiLogoTypescript, BiLogoJavascript } from "react-icons/bi";
+import { IoLogoHtml5, IoLogoCss3, IoLogoReact, IoLogoNodejs } from "react-icons/io5";
+import { BiLogoTypescript, BiLogoJavascript, BiLogoPostgresql } from "react-icons/bi";
 import { FaSwift, FaGithub, FaUnity, FaGitAlt } from "react-icons/fa6";
 import {
   SiXcode,
@@ -13,10 +13,29 @@ import {
   SiVite,
   SiReactrouter,
   SiTailwindcss,
+  SiExpress
 } from "react-icons/si";
 import { TbBrandCSharp, TbJson } from "react-icons/tb";
 
 const arrCert = [
+  {
+    cert: "5d18ce0f-2c7f-45e0-b3d9-d40334d036ec",
+    date: "abr/2025",
+    href: "https://www.ude.my/UC-5d18ce0f-2c7f-45e0-b3d9-d40334d036ec/",
+    h1: "The Complete Full-Stack Web Development Bootcamp ",
+    p: "The App Brewery",
+    icons: [
+      <IoLogoNodejs key="node" title="Node.js" />,
+      <SiExpress key="express" title="Express.js" />,
+      <BiLogoPostgresql key="postgresql" title="PosgreSQL" />,
+      <IoLogoReact key="react" title="React" />,
+      <BiLogoJavascript key="js" title="JavaScript" />,
+      <SiTailwindcss key="tailwind" title="Tailwind" />,
+      <FaGitAlt key="git" title="Git" />,
+      <FaGithub key="github" title="GitHub" />,
+      <TbJson key="json" title="JSON" />,
+    ],
+  },
   {
     cert: "e768c9c3",
     date: "mar/2025",
@@ -40,8 +59,6 @@ const arrCert = [
       <IoLogoReact key="react" title="React" />,
       <SiReactrouter key="reactrouter" title="React Router" />,
       <BiLogoJavascript key="js" title="JavaScript" />,
-      <IoLogoHtml5 key="html" title="HTML" />,
-      <IoLogoCss3 key="css" title="CSS" />,
       <SiVite key="vite" title="Vite" />,
     ],
   },
@@ -61,8 +78,6 @@ const arrCert = [
     p: "Origamid",
     icons: [
       <SiTailwindcss key="tailwind" title="Tailwind" />,
-      <IoLogoHtml5 key="html" title="HTML" />,
-      <IoLogoCss3 key="css" title="CSS" />,
     ],
   },
   {
